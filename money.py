@@ -13,41 +13,41 @@ while True:
    while(n>=2000):
       c = c + 1
       n = n - 2000
-      print("$")
+      print("2000")
    while(n>= 500):
       c = c + 1
       n = n - 500
-      print("&")
+      print("500")
    while(n>= 200):
       c = c + 1
       n = n - 200
-      print("@")
+      print("200")
    while(n>=100):
       c = c + 1
       n = n - 100
-      print("!")
+      print("100")
    while(n>=50):
       c = c + 1
       n = n - 50
-      print("?")
+      print("50")
    while(n>=20):
       c = c + 1
       n = n -20
-      print("*")
+      print("20")
    while(n>=10):
       c = c + 1
       n = n - 10
-      print("^")
+      print("10")
    while(n>=5):
       c = c + 1
       n = n - 5
-      print("%")
+      print("5")
    while(n>=2):
     c = c + 1
     n = n - 2
-    print(">>")
+    print("2")
    while(n>0):
     c = c + 1
     n = n - 1
-    print("<<")
+    print("1")
    print(c," COUNT ")
