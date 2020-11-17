@@ -8,8 +8,6 @@ c = int(input('''In which currency: 1.Rs to Rs
                    2.$ to $
                    3.Rs to $
                    4.$ to Rs \n''' ))
-a = int(input('Enter amount:'))
-
 
 while True:
    try:
