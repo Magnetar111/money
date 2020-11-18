@@ -1,5 +1,4 @@
-
-    while (True):
+while (True):
     country = int(input('''Country: 1.India
          2.America \n'''))
     currency = int(input('''In which currency: 1.According to country
@@ -66,20 +65,28 @@
             if (n < 0):
                         n = float(input("Cash owed:"))
                         n = round(n * 100)
-            while(n>= 25):
+            while(n>= 100):
                 c = c + 1
-                n = n - 25
-                print("25")
+                n = n - 100
+                print("100")
+            while(n>= 50):
+                c = c + 1
+                n = n - 50
+                print("50")
+            while(n>= 20):
+                c = c + 1
+                n = n - 20
+                print("20")
             while(n>= 10):
                 c = c + 1
                 n = n - 10
                 print("10")
-            while(n>= 5):
+            while(n>=5):
                 c = c + 1
                 n = n - 5
                 print("5")
-            while(n> 0):
-                c = c + 1
-                n = n - 1
-                print("0")
-            print("COUNT", c)       
+            while(n>= 1):
+                    c = c + 1
+                    n = n -1
+                    print("1")
+            print("COUNT", c)
